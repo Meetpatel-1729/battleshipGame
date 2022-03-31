@@ -1,9 +1,14 @@
 # battleshipGame
 Battleship game which uses the mathematical strategy in a way which reduces shot number to sunk all ships
 
+Here is the image for better understanding of the game:
+
+![imagejdjsjds](https://user-images.githubusercontent.com/70450861/161148009-51a11122-7393-4e25-be86-65e375e3f459.png)
+
+
 ## Implementation
 - A bot was already given as a part of the project which places the ships in a 10x10 board (100 locations) anywhere
-- A bot places the bot of length 2,2,3,4,5 
+- A bot places the ship of length 2,3,3,4,5 
 - Program has a pre-build method which would return if you have hit the ship or not and also the ship is sunk or not
 - The given default program uses the random class to generate random numbers to shoot until all bots are sunk
 - In 10000 games it would take 90 shots on average to sink all those ships
