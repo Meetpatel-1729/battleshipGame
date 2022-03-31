@@ -17,11 +17,11 @@ Here is the image for better understanding of the game:
 - This reduces the time by 10% which was good compared to the random numbers but not enough
 - So Added a new code in which it will shoot on the alternate places and if it hits the ship then it will hit all of his four points (Top, Bottom, Left, Right)
 - To reduce more time created a loop if it hits in any of those four directions then it will go into that direction until it sunk the ship or it misses the shot
-- This strategy reduced the time by close to 60 to sink all the ships
+- This strategy reduced number of shots from 90 to 60 on average
 
 ## Next Steps
 - Come up with more advanced logic such as it will hit one point and based on that hit/miss it will decide the next point to shoot
 - Also, it keeps track of the length of the ship
-- if the ship with 2 lengths are sunk already then there is no need to check alternate places
+- If the ship with 2 lengths are sunk already then there is no need to check alternate places
 - Instead it will skip 2 locations at a time which will reduce the number of shots to sunk all those ships
 - I would love to collaborate with someone who wants to work on this project and come up with more optimal solution
