@@ -24,4 +24,4 @@ Here is the image for better understanding of the game:
 - Also, it keeps track of the length of the ship
 - if the ship with 2 lengths are sunk already then there is no need to check alternate places
 - Instead it will skip 2 locations at a time which will reduce the number of shots to sunk all those ships
-- I would love to collaborate with someone who on to work on this project and come up with more optimal solution
+- I would love to collaborate with someone who wants to work on this project and come up with more optimal solution
