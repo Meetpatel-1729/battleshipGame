@@ -16,7 +16,7 @@ Here is the image for better understanding of the game:
 - First wrote a program using parity which shots on alternate points such as (0,0), (0,2), and so on
 - This reduces the time by 10% which was good compared to the random numbers but not enough
 - So Added a new code in which it will shoot on the alternate places and if it hits the ship then it will hit all of his four points (Top, Bottom, Left, Right)
-- To reduce more time created a loop if it hits in any of those four directions then it will go into that direction either it sunk the ship or it misses the shot
+- To reduce more time created a loop if it hits in any of those four directions then it will go into that direction until it sunk the ship or it misses the shot
 - This strategy reduced the time by close to 60 to sink all the ships
 
 ## Next Steps
